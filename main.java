@@ -4,7 +4,9 @@ public class main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("hello world");
+		StringReverse prog1 = new StringReverse();
+		
+		System.out.println(prog1.StringReverse("Hello World"));
 
 	}
 

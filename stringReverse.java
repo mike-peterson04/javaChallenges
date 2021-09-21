@@ -1,12 +1,12 @@
 package codeChallenges;
 
-public class stringReverse {
+public class StringReverse {
 	String reversed = "";
 	
-	public String stringReverse (String reverse) {
+	public String StringReverse (String reverse) {
 		String[] reverseIndex = reverse.split("");
-		for(int i=reverseIndex.length;i<0;i--) {
-			reversed.concat(reverseIndex[i-1]);
+		for(int i=reverseIndex.length;i>0;i--) {
+			reversed = reversed + reverseIndex[i-1];
 		}
 		return reversed;
 	}
