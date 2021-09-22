@@ -7,6 +7,12 @@ public class main {
 		StringReverse prog1 = new StringReverse();
 		
 		System.out.println(prog1.StringReverse("Hello World"));
+		
+		//Program 2 test start
+		Caps prog2 = new Caps();
+		System.out.println(prog2.runProcess("this is a test of the capitalization system"));
+		
+		
 
 	}
 

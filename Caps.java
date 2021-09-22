@@ -9,9 +9,9 @@ public class Caps {
 		String[] parser = input.split("");
 		result = parser[0].toUpperCase();
 		int i = 0;
-		while(i<=parser.length) {
-			if(parser[i+1]==" ") {
-				while(parser[i+1]==" ") {
+		while(i+1<parser.length) {
+			if(parser[i+1].contains(" ")) {
+				while(parser[i+1].contains(" ")) {
 					i++;	
 				}
 				result = result+" "+parser[i+1].toUpperCase();
